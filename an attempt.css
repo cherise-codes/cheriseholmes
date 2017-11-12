@@ -6,7 +6,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 0 25px;
+    margin: 0 0 33px;
 }
 
 .header {
@@ -65,7 +65,7 @@ h1 a:hover {
     background-color: white;
     position:absolute;
     width:100%;
-    height:25px;
+    height:33px;
     left:0;
     bottom:0;
     overflow:hidden;
