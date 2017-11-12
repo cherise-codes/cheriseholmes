@@ -3,7 +3,7 @@ var poem1S = document.getElementById("poem1").style;
 var poem2S = document.getElementById("poem2").style;
 var prevS = document.getElementById("prevButton").style;
 var nextS = document.getElementById("nextButton").style;
-var contentS = document.getElementByClassName("content").style;
+var contentS = document.getElementsByClassName("content").style;
 
 var pg = 1;
 var place = pg + "/2";
