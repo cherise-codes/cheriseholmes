@@ -132,6 +132,7 @@ h1 a:hover {
 }
 
 .left {
+    margin-left: 0;
     width: 35%;
     float: left;
     position: -webkit-sticky;
