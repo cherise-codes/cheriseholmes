@@ -34,8 +34,12 @@ function prevPage() {
     }
 }
 
+function makeSmall() {
+	contentS.width = 95%;
+    	poem1S.fontSize = "11px";
+    	poem2S.fontSize = "11px";
+}
+
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-    contentS.width = 95%;
-    poem1S.fontSize = "11px";
-    poem2S.fontSize = "11px";
+    makeSmall();
 }
