@@ -32,3 +32,10 @@ function prevPage() {
 	
     }
 }
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    poem1S.width = 95%;
+    poem2S.width = 95%;
+    poem1S.font-size = 11px;
+	poem2S.font-size = 11px;
+}
