@@ -16,6 +16,7 @@ body {
 }
 
 .header {
+    margin:0 0 0 0;
     text-align:center;
     font-family: Didot;
     background-color:#39c2ce;
