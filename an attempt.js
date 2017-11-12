@@ -3,6 +3,7 @@ var poem1S = document.getElementById("poem1").style;
 var poem2S = document.getElementById("poem2").style;
 var prevS = document.getElementById("prevButton").style;
 var nextS = document.getElementById("nextButton").style;
+var contentS = document.getElementByClass("content").style;
 
 var pg = 1;
 var place = pg + "/2";
@@ -34,8 +35,7 @@ function prevPage() {
 }
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-    poem1S.width = 95%;
-    poem2S.width = 95%;
+    contentS.width = 95%;
     poem1S.fontSize = "11px";
     poem2S.fontSize = "11px";
 }
