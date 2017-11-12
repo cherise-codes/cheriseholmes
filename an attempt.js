@@ -41,3 +41,5 @@ function makeSmall() {
 	    poem2S.fontSize = "11px";
 	}
 }
+
+makeSmall();
