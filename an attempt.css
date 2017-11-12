@@ -20,7 +20,9 @@ body {
     font-family: Didot;
     background-color:#39c2ce;
     color:white;
-    font-size:60px;"
+    font-size:60px;
+    left: 0;
+    top:0;
     width:100%;
     
 }
