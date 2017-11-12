@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    margin:0 0 10px 0;
+    margin-bottom: 15px;
     text-align:center;
     font-family: Didot;
     background-color:#39c2ce;
