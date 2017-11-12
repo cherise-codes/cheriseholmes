@@ -69,7 +69,7 @@ h1 a:hover {
     font-family:courier;
     text-align:center;
     padding: 20px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .footer {
