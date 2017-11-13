@@ -47,8 +47,6 @@ body {
 }
 
 .menu a:hover {
-    color:white;
-    background-color:#6f76a5;
     transition:0.6s;
     width:27%;
     
