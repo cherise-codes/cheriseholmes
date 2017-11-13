@@ -9,7 +9,7 @@ var pg = 1;
 var place = pg + "/2";
 document.getElementById("pageNum").innerHTML = place;
 
-function nextPage() {
+function showP1() {
     if (poem1S.display != "none") {
 	poem1S.display = "none";
 	poem2S.display = "inline-block";
@@ -22,7 +22,7 @@ function nextPage() {
 }
 
 
-function prevPage() {
+function showP2() {
     if (poem2S.display != "none") {
 	poem2S.display = "none";
 	poem1S.display = "inline-block";
