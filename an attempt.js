@@ -8,7 +8,7 @@ var pg = 1;
 var place = pg + "/2";
 document.getElementById("pageNum").innerHTML = place;
 
-function showP1() {
+function showP2() {
     if (poem1S.display != "none") {
 	poem1S.display = "none";
 	poem2S.display = "inline-block";
@@ -19,7 +19,7 @@ function showP1() {
 }
 
 
-function showP2() {
+function showP1() {
     if (poem2S.display != "none") {
 	poem2S.display = "none";
 	poem1S.display = "inline-block";
