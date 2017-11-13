@@ -22,8 +22,9 @@ body {
     background-color:#39c2ce;
     color:white;
     font-size:60px;
-    left: 0;
-    top:0;
+    margin-left: 0;
+    margin-top:0;
+    margin-right:0;
     width:100%;
     
 }
