@@ -46,12 +46,6 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
-function makeSmall() {
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-	    contentS.width = 95%;
-	    poem1S.fontSize = "11px";
-	    poem2S.fontSize = "11px";
-	}
-}
-
-makeSmall();
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
