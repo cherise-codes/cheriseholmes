@@ -203,6 +203,7 @@ h1 a:hover {
 .menuButton {
     display: inline-block;
     float:left;
+    cursor:pointer;
 }
 
 /* The side navigation menu */
