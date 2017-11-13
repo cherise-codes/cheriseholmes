@@ -207,6 +207,10 @@ h1 a:hover {
     cursor:pointer;
 }
 
+.menuButton:hover {
+    cursor:pointer;
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
